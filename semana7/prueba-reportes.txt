@@ -1,0 +1,12 @@
+Al enviar una petición POST a la ruta /reportes, el servidor registra la información recibida en el array reportes.
+
+Cuando se consulta la ruta GET /reportes, el servidor devuelve todos los reportes almacenados en memoria.
+
+Por ejemplo, después de registrar un reporte como:
+
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+La consulta GET /reportes devuelve la lista de reportes registrados. Esto demuestra que la API puede almacenar y consultar información usando los métodos POST y GET.
